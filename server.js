@@ -62,6 +62,24 @@ app.get('/api/data/:pageSize',function(req,res){
 })
 
 
+app.get('/api/data/page/:id',function(req,res){
+	var id = req.params.id;
+	options.url ="http://react-china.org/t/"+id+".json?track_visit=true&forceLoad=true&_=1492395696504";
+	console.log(options.url)
+	request.get(options,function(error, response, body) {
+		if(error){
+			console.log(error);
+		}
+		if (!error && response.statusCode == 200) {
+			res.setHeader("Content-Type","application/json;charset=utf-8");
+			console.log(body);
+		    res.end(body);
+		}
+	})
+})
+
+
+
 var num = 0;
 
 app.get('/api/test',function(req,res){

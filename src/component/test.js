@@ -1,5 +1,13 @@
 import React,{Component} from 'react';
 import PropTypes from 'prop-types';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  NavLink,
+  Switch
+} from 'react-router-dom';
+
 import 'whatwg-fetch';
 import moment from 'moment'
 moment.lang('zh-cn');
@@ -10,7 +18,7 @@ const url = "http://localhost:3000/";
 const Message = (props) =>(
 	<li className="item-list">
 		<ul className="list-ul">
-			<li className="list-title" ><a href="">{props.data.title}</a></li>
+			<li className="list-title" ><Link to={`/t/${props.data.slug}/${props.data.id}`}>{props.data.title}</Link></li>
 			<li className="list-other"><a href="">{props.data.category}</a></li>
 			<li className="list-other"><a href="">{props.data.views}</a></li>
 			<li className="list-other"><a href="">{props.data.created_at}</a></li>
