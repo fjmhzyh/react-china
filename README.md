@@ -47,5 +47,5 @@ $ npm start         // 启动项目
 * http://localhost:3000    // 打开项目主页
 
 ### 项目预览
-![image](https://raw.githubusercontent.com/allan2coder/react-spa/master/screenshots/jdfw.gif)
+![image](https://github.com/fjmhzyh/react-china/blob/master/react.gif)
 
