@@ -1,12 +1,14 @@
-# react + react-router4 + nodejs + spa + es6 + flex 新手教程
+## react + react-router4 + nodejs + spa + es6 + flex 新手教程
+
 react + react-router4 + es6 + nodejs + flex布局 重写 react-china 社区.
 
-由于技术更新飞快,社区很多教程都已经是过时的技术.仅有的一些可能过于复杂,不适合新手学习.本教程是专门针对新手的入门教程.
-本教程会使用2017年4月18号为止,最新版本的react和相关依赖进行开发,手把手教大家把一个项目从0到1搭建起来,同时整理了react相关的学习资料.
-为了方便大家学习,降低学习难度,项目并没有使用redux.
+* 由于技术更新飞快,社区很多教程都已经是过时的技术.仅有的一些可能过于复杂,并不适合新手学习.
+* 本教程是专门针对新手的入门教程.本教程会使用2017年4月18号为止,最新版本的react和相关依赖进行开发.
+  手把手教大家把一个项目从0到1搭建起来,同时整理了react相关的学习资料.
+* 为了方便大家学习,降低学习难度,项目并没有使用redux.
 
 
-## React基础
+### React基础
 * react基本语法学习  http://www.ruanyifeng.com/blog/2015/03/react.html  
 * react书籍推荐   https://book.douban.com/subject/26918038/
 * react-router语法  https://reacttraining.com/react-router/web/guides/quick-start
