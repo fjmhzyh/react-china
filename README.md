@@ -1,6 +1,6 @@
-## react + react-router4 + nodejs + spa + es6 + flex 新手教程
+## React + React-Router4 + nodejs + spa + es6 + flex 新手教程
 
-react + react-router4 + es6 + nodejs + flex布局 重写 react-china 社区.
+React + React-Router4 + es6 + nodejs + flex布局 重写 react-china 社区.
 
 * 由于技术更新飞快,社区很多教程都已经是过时的技术.仅有的一些可能过于复杂,并不适合新手学习.
 * 本教程是专门针对新手的入门教程.本教程会使用2017年4月18号为止,最新版本的react和相关依赖进行开发.
@@ -38,10 +38,14 @@ react + react-router4 + es6 + nodejs + flex布局 重写 react-china 社区.
 
 
 
-### How To Use 
+### 项目搭建
 ```bash
 git clone git@github.com:fjmhzyh/react-china.git      // 将项目下载到本地
 $ npm install       // 安装依赖
 $ npm start         // 启动项目
 ```
 * http://localhost:3000    // 打开项目主页
+
+### 项目预览
+![image](https://raw.githubusercontent.com/allan2coder/react-spa/master/screenshots/jdfw.gif)
+
