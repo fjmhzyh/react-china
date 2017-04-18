@@ -47,8 +47,9 @@ $ npm start         // 启动项目
 * http://localhost:3000    // 打开项目主页
 
 ### 你的支持,我的动力
- 如果觉得有帮助的话,请作者喝杯咖啡吧！
- 感谢大家的支持,项目会继续完善,其他教程也会提交到github,欢迎关注！
+ * 如果觉得有帮助的话,请作者喝杯咖啡吧！
+ * 感谢大家的支持,项目会继续完善,其他教程也会提交到github,欢迎关注！
+ 
  ![image](https://github.com/fjmhzyh/react-china/blob/master/code.jpg)
 
 ### 项目预览
