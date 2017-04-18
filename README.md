@@ -36,6 +36,14 @@ React + React-Router4 + es6 + nodejs + flex布局 重写 react-china 社区.
 ### 什么是react-router
  SPA应用由于只有一个页面,无法很好的处理页面的前进,后退,书签管理等功能.这时候就需要借助react-router来进行页面跳转和管理
 
+### 本项目实现的功能
+* webpack搭建react开发环境,热加载等功能
+* nodejs爬取react-china接口数据,返回给前台
+* react + flex布局实现前端界面UI
+* 用fetch实现react的数据获取
+* 用react-router 实现路由切换
+* 滚动条下拉自动获取下一页内容,并重新渲染
+
 
 
 ### 项目搭建
